@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.notfound{
+    background-image: url('https://i.ibb.co/c8FY1Lw/tsunade.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pagenotfound{
+    border: 2px solid #000;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.four{
+    font-family: 'Bree Serif';
+    font-size: 8rem;
+}
+
+.page{
+    font-family: 'Bree Serif';
+    font-size: 4rem;
+}

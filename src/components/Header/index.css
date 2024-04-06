@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Micro+5&family=Ojuju:wght@200..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem
+}
+
+.span-logo{
+    font-family: 'Bree serif';
+    color: rgb(222, 116, 190);
+    font-weight: bold;
+}
+
+.logo{
+    font-family: 'Bree serif';
+    color: burlywood;
+    font-weight: bold;
+}
+
+.left-head{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.head-list{
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-links{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Anta';
+    font-size: 1.2rem;
+    color: burlywood;
+    font-weight: bold;
+}
+
+.nav-link{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Anta';
+    font-size: 1.2rem;
+    color: burlywood;
+    font-weight: bold;
+    height: 2rem;
+    width: 7rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.logout-desktop-btn{
+    height: 2rem;
+    width: 5rem;
+    color: burlywood;
+    font-weight: bold;
+    background-color: darkred;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.active{
+    border: 1px solid rgb(222, 116, 190);   
+}
+
+.nav-link:hover {
+    background-color: rgb(222, 116, 190);
+}
