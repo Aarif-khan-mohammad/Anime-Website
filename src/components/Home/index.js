@@ -1,20 +1,9 @@
 import React from 'react'
 import './index.css'
-import {Redirect} from 'react-router-dom'
-import Cookies from 'js-cookie'
 import Header from '../Header'
 
 
-const Home = () => {
-
-    const jwtToken = Cookies.get('jwt_token')
-    console.log(jwtToken)
-    if(jwtToken === undefined){
-        return <Redirect to="/login" /> 
-    }else{
-        console.log(jwtToken)
-    }
-  return (
+const Home = () => (
     <div className='home'>
         <video src='anime360p.mp4' autoPlay loop muted className='video-bg'></video>
         <Header />
@@ -26,7 +15,6 @@ const Home = () => {
             <a href='https://hianime.to/' target='__blank' className='more'><button className='moree'>Explore Now</button></a>
         </div>
     </div>
-  )
-}
+)
 
 export default Home

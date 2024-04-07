@@ -2,8 +2,7 @@ import React from 'react'
 import Header from '../Header'
 import './index.css'
 
-const About = () => {
-  return (
+const About = () => (
     <div className='animes'>
         <Header/>
         <h1 className='anime-head'>Animes</h1>
@@ -123,7 +122,9 @@ const About = () => {
             </div>
         </div>
     </div>
-  )
-}
+)
+
 
 export default About
+
+
